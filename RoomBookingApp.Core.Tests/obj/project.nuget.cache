@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "89LjoBehcTViBU39j69yMS6gjnpmwi+3EBJLlKPQq9ilOI5dwZFM4CpeLEJqQq+xsOAzM9lzgX1D1DyQl2ufVQ==",
+  "dgSpecHash": "LYddveFDMNQDQImLu3BAPk+pJExLYQVVtwM320N/qEQ72NGJktW7LDeyDr/6PRsCG1pGbmbOj2QmYsbHogeBpw==",
   "success": true,
   "projectFilePath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/precious/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/precious/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/precious/.nuget/packages/diffengine/11.2.0/diffengine.11.2.0.nupkg.sha512",
     "/Users/precious/.nuget/packages/emptyfiles/4.4.0/emptyfiles.4.4.0.nupkg.sha512",
@@ -16,6 +17,7 @@
     "/Users/precious/.nuget/packages/microsoft.testplatform.testhost/16.9.4/microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/precious/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/precious/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/Users/precious/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
@@ -44,6 +46,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/Users/precious/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.dynamic.runtime/4.0.11/system.dynamic.runtime.4.0.11.nupkg.sha512",
