@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api.Tests/RoomBookingApp.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api.Tests/RoomBookingApp.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api.Tests/RoomBookingApp.Api.Tests.csproj",
+        "projectName": "RoomBookingApp.Api.Tests",
+        "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api.Tests/RoomBookingApp.Api.Tests.csproj",
+        "packagesPath": "/Users/precious/.nuget/packages/",
+        "outputPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/precious/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/RoomBookingApp.Api.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/RoomBookingApp.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/RoomBookingApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/RoomBookingApp.Api.csproj",
+        "projectName": "RoomBookingApp.Api",
+        "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/RoomBookingApp.Api.csproj",
+        "packagesPath": "/Users/precious/.nuget/packages/",
+        "outputPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/precious/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj"
+              },
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/RoomBookingApp.Persistence.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/RoomBookingApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj",
+        "projectName": "RoomBookingApp.Core",
+        "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj",
+        "packagesPath": "/Users/precious/.nuget/packages/",
+        "outputPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/precious/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj",
+        "projectName": "RoomBookingApp.Domain",
+        "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj",
+        "packagesPath": "/Users/precious/.nuget/packages/",
+        "outputPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/precious/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/RoomBookingApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/RoomBookingApp.Persistence.csproj",
+        "projectName": "RoomBookingApp.Persistence",
+        "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/RoomBookingApp.Persistence.csproj",
+        "packagesPath": "/Users/precious/.nuget/packages/",
+        "outputPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/precious/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/RoomBookingApp.Core.csproj"
+              },
+              "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj": {
+                "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
