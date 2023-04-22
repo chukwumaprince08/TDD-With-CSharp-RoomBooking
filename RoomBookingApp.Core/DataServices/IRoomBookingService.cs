@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using RoomBookingApp.Core.Domain;
+using RoomBookingApp.Domain;
 
 namespace RoomBookingApp.Core.DataServices
 {
-	public interface IRoomBookingService
+    public interface IRoomBookingService
 	{
 		void Save(RoomBooking roomBooking);
 		IEnumerable<Room> GetAvailableRooms(DateTime date);

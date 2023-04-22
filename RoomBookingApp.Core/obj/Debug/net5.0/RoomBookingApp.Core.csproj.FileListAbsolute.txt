@@ -22,3 +22,6 @@
 /Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/obj/Debug/net5.0/refint/RoomBookingApp.Core.dll
 /Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/obj/Debug/net5.0/RoomBookingApp.Core.pdb
 /Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/obj/Debug/net5.0/ref/RoomBookingApp.Core.dll
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/bin/Debug/net5.0/RoomBookingApp.Domain.dll
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/bin/Debug/net5.0/RoomBookingApp.Domain.pdb
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core/obj/Debug/net5.0/RoomBookingApp.Core.csproj.CopyComplete

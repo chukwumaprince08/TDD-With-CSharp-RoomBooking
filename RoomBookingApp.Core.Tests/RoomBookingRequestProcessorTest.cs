@@ -1,18 +1,18 @@
 ﻿using System;
-using Xunit;
-using Shouldly;
-using RoomBookingApp.Core.Models;
-using RoomBookingApp.Core.Processors;
-using RoomBookingApp.Core.DataServices;
-using Moq;
-using RoomBookingApp.Core.Domain;
 using System.Collections.Generic;
 using System.Linq;
+using Moq;
+using RoomBookingApp.Core.DataServices;
 using RoomBookingApp.Core.Enums;
+using RoomBookingApp.Core.Models;
+using RoomBookingApp.Core.Processors;
+using RoomBookingApp.Domain;
+using Shouldly;
+using Xunit;
 
 namespace RoomBookingApp.Core
 {
-	public class RoomBookingRequestProcessorTest
+    public class RoomBookingRequestProcessorTest
 	{
         private RoomBookingRequestProcessor _processor;
         private RoomBookingRequest _request;
@@ -27,7 +27,7 @@ namespace RoomBookingApp.Core
             {
                 FullName = "Test Name",
                 Email = "test@request.com",
-                Date = new DateTime(2023, 10, 20)
+                Date = new DateTime(2023, 04, 22)
             };
 			_availableRooms = new List<Room>() { new Room() { Id = 1 } };
 

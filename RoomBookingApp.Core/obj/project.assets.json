@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "RoomBookingApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/RoomBookingApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoomBookingApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RoomBookingApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RoomBookingApp.Domain/RoomBookingApp.Domain.csproj",
+      "msbuildProject": "../RoomBookingApp.Domain/RoomBookingApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "RoomBookingApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/precious/.nuget/packages/": {},
@@ -35,7 +54,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj": {
+              "projectPath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/RoomBookingApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

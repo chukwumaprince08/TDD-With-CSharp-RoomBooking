@@ -1,0 +1,12 @@
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/bin/Debug/net5.0/RoomBookingApp.Domain.deps.json
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/bin/Debug/net5.0/RoomBookingApp.Domain.dll
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/bin/Debug/net5.0/RoomBookingApp.Domain.pdb
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.csproj.AssemblyReference.cache
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.AssemblyInfoInputs.cache
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.AssemblyInfo.cs
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.csproj.CoreCompileInputs.cache
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.dll
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/refint/RoomBookingApp.Domain.dll
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/RoomBookingApp.Domain.pdb
+/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Domain/obj/Debug/net5.0/ref/RoomBookingApp.Domain.dll
