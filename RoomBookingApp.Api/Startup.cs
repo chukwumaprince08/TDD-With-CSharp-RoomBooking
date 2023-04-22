@@ -13,7 +13,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RoomBookingApp.Core.DataServices;
+using RoomBookingApp.Core.Processors;
 using RoomBookingApp.Persistence;
+using RoomBookingApp.Persistence.Repositories;
 
 namespace RoomBookingApp.Api
 {
@@ -41,6 +44,8 @@ namespace RoomBookingApp.Api
             conn.Open();
 
             services.AddDbContext<RoomBookingAppDbContext>(opt => opt.UseSqlite(conn));
+            services.AddScoped<IRoomBookingRequestProcessor, RoomBookingRequestProcessor>();
+            services.AddScoped<IRoomBookingService, RoomBookingService>();
 
         }
 
