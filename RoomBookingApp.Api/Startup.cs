@@ -44,9 +44,19 @@ namespace RoomBookingApp.Api
             conn.Open();
 
             services.AddDbContext<RoomBookingAppDbContext>(opt => opt.UseSqlite(conn));
+            EnsureDatabaseCreated(conn);
+
             services.AddScoped<IRoomBookingRequestProcessor, RoomBookingRequestProcessor>();
             services.AddScoped<IRoomBookingService, RoomBookingService>();
 
+        }
+
+        private static void EnsureDatabaseCreated(SqliteConnection conn)
+        {
+            var builder = new DbContextOptionsBuilder<RoomBookingAppDbContext>();
+            builder.UseSqlite(conn);
+            using var context = new RoomBookingAppDbContext(builder.Options);
+            context.Database.EnsureCreated();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
