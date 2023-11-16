@@ -3,7 +3,6 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using RoomBookingApp.Domain;
 using RoomBookingApp.Persistence.Repositories;
-using Shouldly;
 using Xunit;
 
 namespace RoomBookingApp.Persistence.Tests

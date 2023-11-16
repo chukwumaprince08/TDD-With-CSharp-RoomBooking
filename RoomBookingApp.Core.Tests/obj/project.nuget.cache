@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9mflslRJiD5S20+tb8emIcAyI/9RwwN7gWYOjYyF9pfSWmojwbxFBNkbUViGNBHpzy2nmECoddpR4zYxF44OuA==",
+  "dgSpecHash": "3zBydDhn9O4C5QKlksX0b6Uj/dnbPQMvrxQc29TQPBtbFPbMSLmbAfEBTW5ADNRiMsY59x32G9Og6gC9L5KHkA==",
   "success": true,
   "projectFilePath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj",
   "expectedPackageFiles": [

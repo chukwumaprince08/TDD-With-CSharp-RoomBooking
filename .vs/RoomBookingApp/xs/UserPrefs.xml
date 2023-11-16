@@ -1,49 +1,45 @@
 ﻿<Properties StartupConfiguration="{56E8D603-732F-41AE-AE61-741AFE690584}|Default">
-  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Core.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RoomBookingApp.Persistence.Tests/RoomBookingServiceTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RoomBookingApp.Api/Controllers/RoomBookingController.cs">
     <Files>
-      <File FileName="RoomBookingApp.Core/Processors/RoomBookingRequestProcessor.cs" Line="57" Column="2" />
-      <File FileName="RoomBookingApp.Persistence/RoomBookingAppDbContext.cs" Line="14" Column="22" />
-      <File FileName="RoomBookingApp.Domain/RoomBooking.cs" Line="9" Column="37" />
-      <File FileName="RoomBookingApp.Persistence/Repositories/RoomBookingService.cs" Line="18" Column="10" />
-      <File FileName="RoomBookingApp.Persistence.Tests/RoomBookingServiceTests.cs" Line="8" Column="1" />
+      <File FileName="RoomBookingApp.Core/Processors/IRoomBookingRequestProcessor.cs" />
+      <File FileName="RoomBookingApp.Core/Processors/RoomBookingRequestProcessor.cs" />
+      <File FileName="RoomBookingApp.Core.Tests/RoomBookingRequestProcessorTest.cs" />
+      <File FileName="RoomBookingApp.Persistence/Repositories/RoomBookingService.cs" />
+      <File FileName="RoomBookingApp.Api.Tests/RoomBookingControllerTests.cs" Line="46" Column="54" />
+      <File FileName="RoomBookingApp.Api/Controllers/RoomBookingController.cs" Line="25" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RoomBookingApp" expanded="True">
-            <Node name="RoomBookingApp.Core" expanded="True">
+            <Node name="RoomBookingApp.Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="RoomBookingController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="RoomBookingApp.Api.Tests" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="DataServices" expanded="True" />
-              <Node name="Enums" expanded="True" />
-              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="RoomBookingApp.Core" expanded="True">
               <Node name="Processors" expanded="True" />
             </Node>
             <Node name="RoomBookingApp.Core.Tests" expanded="True" />
-            <Node name="RoomBookingApp.Domain" expanded="True">
-              <Node name="BaseModels" expanded="True" />
-            </Node>
             <Node name="RoomBookingApp.Persistence" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
-            <Node name="RoomBookingApp.Persistence.Tests" expanded="True" selected="True" />
+            <Node name="RoomBookingApp.Persistence.Tests" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="RoomBookingApp" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Api.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Api FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Api.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Core.Tests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

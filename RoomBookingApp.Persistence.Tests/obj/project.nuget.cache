@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r/bZNkF2TthNGu+35Zk/MYaNAdTQPawL2MyJ1hWODo+AqNeYzfOcO8KXdVig0Cv+o409HwysldcZMwNu0sHTHA==",
+  "dgSpecHash": "6FCHWgBXC4/sXFsWQtQPXM2yPaHNiIa8LO7pZVxlixEYnzlDe/a0gVqE/aF1ntJ9Pi4BeSTi6xYEePjleSBlaA==",
   "success": true,
   "projectFilePath": "/Users/precious/Projects/TDD-With-CSharp-RoomBooking/RoomBookingApp.Persistence.Tests/RoomBookingApp.Persistence.Tests.csproj",
   "expectedPackageFiles": [
